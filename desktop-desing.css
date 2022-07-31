@@ -1,0 +1,21 @@
+body{
+    background-color: aqua;
+}
+.product{
+    width: 25%;
+    position: fixed;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 15%;
+}
+.article{
+    background-color: blueviolet;
+    position: relative;
+    text-align: center;
+    padding-bottom: 27.7%;
+    margin-left: 40.4%;
+    margin-right: 30%;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
