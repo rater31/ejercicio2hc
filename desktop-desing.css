@@ -2,20 +2,38 @@ body{
     background-color: aqua;
 }
 .product{
-    width: 25%;
+    width: 25.9%;
     position: fixed;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    margin-left: 15%;
+    margin-left: 28%;
+}
+.preciodes{
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 25%;
+    float: left;
+}
+.precio{
+    background-color: brown;
+    float: right;
+    margin-right:33% ;
+    margin-top: 9%;
+    text-decoration: line-through;
 }
 .article{
+    width: 25%;
     background-color: blueviolet;
-    position: relative;
+    position: fixed;
     text-align: center;
-    padding-bottom: 27.7%;
-    margin-left: 40.4%;
+    padding-bottom: 0.6%;
+    margin-left: 50%;
     margin-right: 30%;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
     
+}
+button{
+    margin-top: 70%;
+    float: none;
 }
