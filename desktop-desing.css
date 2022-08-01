@@ -2,11 +2,11 @@ body{
     background-color: aqua;
 }
 .product{
-    width: 25.9%;
+    width: 354px;
     position: fixed;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    margin-left: 28%;
+    margin-left: 329px;
 }
 .preciodes{
     font-weight: 600;
@@ -22,13 +22,13 @@ body{
     text-decoration: line-through;
 }
 .article{
-    width: 25%;
+    width: 399px;
     background-color: blueviolet;
-    position: fixed;
+    position: absolute;
     text-align: center;
-    padding-bottom: 0.6%;
-    margin-left: 50%;
-    margin-right: 30%;
+    padding-bottom: 8px;
+    margin-left: 683px;
+    margin-right: 100px;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
     
