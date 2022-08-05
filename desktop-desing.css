@@ -1,14 +1,22 @@
+/* font Montserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/* font Fraunces*/
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap');
+
 body{
     background-color: #f3eae3;
 }
 
 h1{
+    margin-left: 20px;
+    font-family:'Fraunces'; 
     text-align: left;
     font-size: 55px;
+    
 }
 
 .product{
-    width: 354px;
+    width: 380px;
     position: fixed;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -16,31 +24,36 @@ h1{
 }
 .preciodes{
     color: #398368;
-    font-weight: 600;
-    font-size: 25px;
-    margin-left: 25%;
+    font-weight: 800;
+    font-size: 50px;
+    margin-left: 20px;
     float: left;
+    margin-top: 1px;
 }
 
 .desprod{
+    margin-left:20px ;
+    font-weight: 500;
+    font-family: 'Montserrat';
     margin-top: 1px;
     text-align: left;
     font-size: 20px;
 }
 
 .precio{
-    background-color: brown;
+    
     float: right;
-    margin-right:33% ;
-    margin-top: 9%;
+    font-size: 20px;
+    margin-right: 90px;
+    margin-top: 15px;
     text-decoration: line-through;
 }
 .article{
     width: 399px;
     background-color: white;
-    position: absolute;
+    position: fixed;
     text-align: center;
-    padding-bottom: 270px;
+    padding-bottom: 20px;
     margin-left: 683px;
     margin-right: 100px;
     border-bottom-right-radius: 15px;
@@ -48,9 +61,14 @@ h1{
     
 }
 button{
+    font-size: 25px;
+    padding-left: 30%;
+    padding-right: 30%;
+    border-radius: 15px;
     border-style: none;
-    background-color: #1a4031;
-    margin-top: 20px;
-    margin-right: 138px;
+    background-color: #398368;
+    margin-top: 1px;
+    margin-right: 1px;
+    color: white;
     float: none;
 }
