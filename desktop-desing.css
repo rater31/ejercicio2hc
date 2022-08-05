@@ -7,6 +7,10 @@ body{
     background-color: hsl(30, 38%, 92%);
 }
 
+.mobil{
+    display: none;
+}
+
 .perfume{
     text-align: left;
     font-family: 'Montserrat';
@@ -95,4 +99,25 @@ button{
     margin-bottom: 1px;
     color: white;
     float: none;
+}
+@media (max-width: 600px){
+    .mobil{
+        display: flex;
+        border-top-left-radius:15px !important;
+    }
+    .article{
+        width: auto;
+        margin: auto;
+        margin-top:auto ;
+        position: absolute;
+        border-top-right-radius: 0px !important;
+        border-bottom-left-radius: 15px;
+
+    }
+    .product{
+     display: none;
+    }
+    .attribution{
+        display: none;
+    }
 }
