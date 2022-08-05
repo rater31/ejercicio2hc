@@ -1,5 +1,5 @@
 /* font Montserrat*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 /* font Fraunces*/
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap');
 
@@ -7,8 +7,18 @@ body{
     background-color: #f3eae3;
 }
 
-h1{
+.perfume{
+    text-align: left;
+    font-family: 'Montserrat';
     margin-left: 20px;
+    font-size: 30px;
+    margin-bottom: 1px;
+}
+
+h1{
+    margin-top: 1px;
+    margin-left: 20px;
+    margin-bottom: 1px;
     font-family:'Fraunces'; 
     text-align: left;
     font-size: 55px;
@@ -16,19 +26,22 @@ h1{
 }
 
 .product{
+    margin-top: 1px;
     width: 380px;
     position: fixed;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    margin-left: 329px;
+    margin-left: 305px;
 }
 .preciodes{
+    font-family: 'Fraunces';
     color: #398368;
     font-weight: 800;
     font-size: 50px;
     margin-left: 20px;
     float: left;
     margin-top: 1px;
+    margin-bottom: 45px;
 }
 
 .desprod{
@@ -61,7 +74,10 @@ h1{
     
 }
 button{
-    font-size: 25px;
+    font-family: 'Montserrat';
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
     padding-left: 30%;
     padding-right: 30%;
     border-radius: 15px;
