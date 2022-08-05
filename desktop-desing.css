@@ -104,14 +104,17 @@ button{
     .mobil{
         display: flex;
         border-top-left-radius:15px !important;
+        border-top-right-radius: 15px;
+        width: 100%;
     }
     .article{
-        width: auto;
+        width: 96.6%;
         margin: auto;
         margin-top:auto ;
         position: absolute;
         border-top-right-radius: 0px !important;
         border-bottom-left-radius: 15px;
+        
 
     }
     .product{
