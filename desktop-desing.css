@@ -1,10 +1,10 @@
 /* font Montserrat*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 /* font Fraunces*/
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap');
 
 body{
-    background-color: #f3eae3;
+    background-color: hsl(30, 38%, 92%);
 }
 
 .perfume{
@@ -12,16 +12,19 @@ body{
     font-family: 'Montserrat';
     margin-left: 20px;
     font-size: 30px;
-    margin-bottom: 1px;
+    margin-bottom: 30px;
 }
 
 h1{
+    margin-right: 40px;
     margin-top: 1px;
     margin-left: 20px;
-    margin-bottom: 1px;
+    margin-bottom: 30px;
     font-family:'Fraunces'; 
+    font-weight: 700;
     text-align: left;
-    font-size: 55px;
+    font-size: 49px;
+    line-height: 45px;
     
 }
 
@@ -35,18 +38,20 @@ h1{
 }
 .preciodes{
     font-family: 'Fraunces';
-    color: #398368;
+    color: hsl(158, 36%, 37%);
     font-weight: 800;
-    font-size: 50px;
-    margin-left: 20px;
+    font-size: 43px;
+    margin-left: 60px;
     float: left;
     margin-top: 1px;
-    margin-bottom: 45px;
+    margin-bottom: 20px;
 }
 
 .desprod{
+
+    line-height: 30px;
     margin-left:20px ;
-    font-weight: 500;
+    margin-right: 70px;
     font-family: 'Montserrat';
     margin-top: 1px;
     text-align: left;
@@ -57,9 +62,10 @@ h1{
     
     float: right;
     font-size: 20px;
-    margin-right: 90px;
+    margin-right: 100px;
     margin-top: 15px;
     text-decoration: line-through;
+    font-weight: 50;
 }
 .article{
     width: 399px;
@@ -75,16 +81,18 @@ h1{
 }
 button{
     font-family: 'Montserrat';
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 20px;
-    padding-left: 30%;
-    padding-right: 30%;
+    font-weight: 800;
+    padding-left: 80px;
+    padding-right: 80px;
     border-radius: 15px;
     border-style: none;
-    background-color: #398368;
+    background-color: hsl(158, 36%, 37%);
     margin-top: 1px;
     margin-right: 1px;
+    margin-bottom: 1px;
     color: white;
     float: none;
 }
